@@ -10,6 +10,7 @@
     <meta name="author" content="Urban Print">
 
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Poppins', sans-serif; }
@@ -20,7 +21,7 @@
     <header class="sticky top-0 z-50 bg-zinc-950/80 backdrop-blur-md border-b border-zinc-800">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center gap-3">
-                <img src="/img/00logo.png" alt="Urban Print Logo" class="w-10 h-10 rounded-full object-cover shadow-lg border border-zinc-800">
+                <img src="00logo.png" alt="Urban Print Logo" class="w-10 h-10 rounded-full object-cover shadow-lg border border-zinc-800">
                 <span class="font-extrabold text-xl tracking-wider uppercase bg-gradient-to-r from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent">Urban Print</span>
             </div>
             <nav class="hidden md:flex gap-6 text-sm font-medium text-zinc-400">
@@ -28,9 +29,15 @@
                 <a href="#disenos" class="hover:text-cyan-400 transition">Diseños Exclusivos</a>
                 <a href="#contacto" class="hover:text-yellow-400 transition">Contacto</a>
             </nav>
-            <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20hacer%20una%20consulta" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold px-4 py-2 rounded-full transition shadow-lg flex items-center gap-2">
-                WhatsApp
-            </a>
+            <div class="flex items-center gap-3">
+                <a href="https://instagram.com/urbanprintok" target="_blank" class="w-9 h-9 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-300 hover:text-pink-500 hover:border-pink-500/50 transition shadow">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20hacer%20una%20consulta" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white text-sm font-semibold px-4 py-2 rounded-full transition shadow-lg flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span class="hidden sm:inline">WhatsApp</span>
+                </a>
+            </div>
         </div>
     </header>
 
@@ -65,271 +72,58 @@
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!--copiar y pegar x cada producto nuevo-->
-
+            
             <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
                 <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/01.jpg" alt="Taza 1" class="w-full h-full object-cover">
+                    <img src="taza1.jpg" alt="Taza 1" class="w-full h-full object-cover">
                 </div>
                 <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Taz</h3>
+                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Modelo 1</h3>
                     <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Taz" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
+                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Modelo%201" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Pedir por WhatsApp
                     </a>
                 </div>
             </div>
 
             <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
                 <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/02.jpg" alt="Taza 2" class="w-full h-full object-cover">
+                    <img src="taza2.jpg" alt="Taza 2" class="w-full h-full object-cover">
                 </div>
                 <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Bart</h3>
+                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Modelo 2</h3>
                     <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Bart" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
+                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Modelo%202" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Pedir por WhatsApp
                     </a>
                 </div>
             </div>
 
             <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
                 <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/03.jpg" alt="Taza 3" class="w-full h-full object-cover">
+                    <img src="taza3.jpg" alt="Taza 3" class="w-full h-full object-cover">
                 </div>
                 <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Bob 1</h3>
+                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Modelo 3</h3>
                     <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bob%201" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
+                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Modelo%203" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Pedir por WhatsApp
                     </a>
                 </div>
             </div>
 
             <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
                 <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/04.jpg" alt="Taza 4" class="w-full h-full object-cover">
+                    <img src="taza4.jpg" alt="Taza 4" class="w-full h-full object-cover">
                 </div>
                 <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Bob 2</h3>
+                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Modelo 4</h3>
                     <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Bob2" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
+                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Modelo%204" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Pedir por WhatsApp
                     </a>
                 </div>
             </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/05.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Homero 1 </h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Homero" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/06.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Homero 2</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Homero2" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/07.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Homero 3</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Homero3" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/08.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Minions</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Minion" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/09.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Mike</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Mike" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/010.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Sulley</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Sulley" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/011.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Patricio</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Patricio" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/012.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Angel</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Angel" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/013.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Lilo</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Lilo" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/014.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Stitch</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Stitch" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/021.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Scooby</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Scooby" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/022.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona One Piece</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20OnePiece" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/023.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Naruto</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Naruto" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/024.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Coraje</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Coraje" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/025.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Olaf</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Olaf" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-zinc-900/60 border border-zinc-800/80 rounded-2xl overflow-hidden group hover:border-zinc-700 transition flex flex-col">
-                <div class="h-56 bg-zinc-800 relative overflow-hidden flex items-center justify-center">
-                    <img src="/img/tazas/026.jpg" alt="Taza 4" class="w-full h-full object-cover">
-                </div>
-                <div class="p-5 flex flex-col flex-grow">
-                    <h3 class="font-bold text-lg mb-1 group-hover:text-pink-400 transition">Taza Bocona Hulk</h3>
-                    <p class="text-zinc-400 text-xs mb-4 flex-grow">Cerámica alta calidad, apta microondas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20la%20Taza%20Bocona%20Hulk" target="_blank" class="w-full bg-zinc-800 hover:bg-emerald-600 text-zinc-200 hover:text-white font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Pedir por WhatsApp
-                    </a>
-                </div>
-            </div>
-
-
-
-
 
         </div>
     </section>
@@ -352,8 +146,8 @@
                 <div class="p-5 flex flex-col flex-grow">
                     <h3 class="font-bold text-lg mb-1 group-hover:text-cyan-400 transition">Diseño 1</h3>
                     <p class="text-zinc-400 text-xs mb-4 flex-grow">Alta resolución para matriz de tazas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20el%20Dise%C3%B1o%201" target="_blank" class="w-full bg-zinc-800 hover:bg-cyan-600 text-zinc-200 hover:text-zinc-950 font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Consultar Diseño
+                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20el%20Dise%C3%B1o%201" target="_blank" class="w-full bg-zinc-800 hover:bg-cyan-600 text-zinc-200 hover:text-zinc-950 font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Consultar Diseño
                     </a>
                 </div>
             </div>
@@ -365,8 +159,8 @@
                 <div class="p-5 flex flex-col flex-grow">
                     <h3 class="font-bold text-lg mb-1 group-hover:text-cyan-400 transition">Diseño 2</h3>
                     <p class="text-zinc-400 text-xs mb-4 flex-grow">Alta resolución para matriz de tazas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20el%20Dise%C3%B1o%202" target="_blank" class="w-full bg-zinc-800 hover:bg-cyan-600 text-zinc-200 hover:text-zinc-950 font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Consultar Diseño
+                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20el%20Dise%C3%B1o%202" target="_blank" class="w-full bg-zinc-800 hover:bg-cyan-600 text-zinc-200 hover:text-zinc-950 font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Consultar Diseño
                     </a>
                 </div>
             </div>
@@ -378,8 +172,8 @@
                 <div class="p-5 flex flex-col flex-grow">
                     <h3 class="font-bold text-lg mb-1 group-hover:text-cyan-400 transition">Diseño 3</h3>
                     <p class="text-zinc-400 text-xs mb-4 flex-grow">Alta resolución para matriz de tazas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20el%20Dise%C3%B1o%203" target="_blank" class="w-full bg-zinc-800 hover:bg-cyan-600 text-zinc-200 hover:text-zinc-950 font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Consultar Diseño
+                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20el%20Dise%C3%B1o%203" target="_blank" class="w-full bg-zinc-800 hover:bg-cyan-600 text-zinc-200 hover:text-zinc-950 font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Consultar Diseño
                     </a>
                 </div>
             </div>
@@ -391,8 +185,8 @@
                 <div class="p-5 flex flex-col flex-grow">
                     <h3 class="font-bold text-lg mb-1 group-hover:text-cyan-400 transition">Diseño 4</h3>
                     <p class="text-zinc-400 text-xs mb-4 flex-grow">Alta resolución para matriz de tazas.</p>
-                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20el%20Dise%C3%B1o%204" target="_blank" class="w-full bg-zinc-800 hover:bg-cyan-600 text-zinc-200 hover:text-zinc-950 font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-1">
-                        Consultar Diseño
+                    <a href="https://wa.me/5492944363909?text=Hola%20Urban%20Print,%20quiero%20consultar%20por%20el%20Dise%C3%B1o%204" target="_blank" class="w-full bg-zinc-800 hover:bg-cyan-600 text-zinc-200 hover:text-zinc-950 font-semibold py-2.5 px-3 rounded-xl transition text-center text-xs flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Consultar Diseño
                     </a>
                 </div>
             </div>
@@ -406,9 +200,13 @@
                 <span class="font-extrabold text-lg uppercase tracking-wider">Urban Print</span>
                 <p class="text-zinc-400 text-sm mt-1">Bariloche • Regalos que conectan</p>
             </div>
-            <div class="flex flex-col sm:flex-row gap-6 text-sm">
-                <a href="https://instagram.com/urbanprintok" target="_blank" class="text-zinc-400 hover:text-pink-500 transition font-medium">Instagram: @urbanprintok</a>
-                <a href="https://wa.me/5492944363909" target="_blank" class="text-zinc-400 hover:text-emerald-500 transition font-medium">WhatsApp: +54 9 2944 36-3909</a>
+            <div class="flex items-center gap-4">
+                <a href="https://instagram.com/urbanprintok" target="_blank" class="w-10 h-10 rounded-full bg-zinc-800 border border-zinc-700 flex items-center justify-center text-zinc-300 hover:text-pink-500 hover:border-pink-500 transition shadow">
+                    <i class="fa-brands fa-instagram text-lg"></i>
+                </a>
+                <a href="https://wa.me/5492944363909" target="_blank" class="w-10 h-10 rounded-full bg-zinc-800 border border-zinc-700 flex items-center justify-center text-zinc-300 hover:text-emerald-500 hover:border-emerald-500 transition shadow">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                </a>
             </div>
         </div>
     </footer>
